@@ -1,0 +1,411 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Reggaeton</title>
+    <link rel="stylesheet" href="css/foundation-flex.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Ravi+Prakash" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/pricingTable.css">
+    <link rel="stylesheet" href="icons/foundation-icons/foundation-icons.css">
+  </head>
+  
+  <body>
+
+    <!-- Menu Vertical -->
+    
+    <div class="off-canvas-wrap" off-canvas-wrap>
+      <div class="inner-wrap">
+        <div id="offCanvas" class="off-canvas position-left" data-off-canvas>
+          <nav data-magellan>
+            <ul class="vertical menu" data-drilldown>
+              <li><a href="#ticketsContainer">Tickets</a></li>
+              <li>
+                <a href="#lineUpContainer">Participantes</a>
+                 <ul class="menu">
+                  <li><a data-toggle-dia="panelViernes" href="#lineUpContainer">Viernes</a></li>
+                  <li><a data-toggle-dia="panelSabado"href="#lineUpContainer">Sabado</a></li>
+                  <li><a data-toggle-dia="panelDomingo"href="#lineUpContainer">Domingo</a></li>
+                </ul>
+              </li>
+              <li><a href="#infoContainer">Info</a></li>
+              <li><a href="#suscribeteContainer">Suscríbete</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      
+      <!-- Logo -->
+
+      <section id="logoContainer">
+        <div class="callout text-center">
+        <h1>Festival de Reggaeton</h1>
+        </div>
+      </section>
+
+      <!-- /Logo -->
+
+      <!-- Menu -->
+
+      <section id="scrollSticky" data-sticky-container >
+        <div class="data-sticky" data-sticky id="sticky" data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
+          <nav id="menuContainer" data-magellan>
+            <ul class="menu align-spaced show-for-small-only">
+              <li><a href="#" data-toggle="offCanvas">Menu</a></li>
+            </ul>
+            <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+              <li><a href="#ticketsContainer">Tickets</a></li>
+              <li>
+                <a href="#lineUpContainer">Participantes</a>
+                <ul id="subMenuContainer"class="menu">
+                  <li><a data-toggle-dia="panelViernes" href="#lineUpContainer">Viernes</a></li>
+                  <li><a data-toggle-dia="panelSabado"href="#lineUpContainer">Sabado</a></li>
+                  <li><a data-toggle-dia="panelDomingo"href="#lineUpContainer">Domingo</a></li>
+                </ul>
+              </li>
+              <li><a href="#infoContainer">Info</a></li>
+              <li><a href="#suscribeteContainer">Suscríbete</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <!-- /Menu -->
+
+      <!-- Tickets -->
+
+      <section id="ticketsAction">
+        <div class="callout large text-center">
+          <a href="#">
+            <button class="button hollow large" type="button" name="button">Comprar Boletos</button>
+          </a>
+        </div>
+      </section>
+
+      <!-- /Tickets -->
+
+      <!-- LineUp -->
+
+      <section id="lineUpContainer" data-magellan-target="lineUpContainer">
+          <h3 class="text-center">Participantes</h3>
+          <ul class="tabs text-center" data-tabs id="lineUpTabs">
+            <li class="tabs-title "><a data-tabs-target="panelViernes" href="#panelViernes" >Viernes</a></li>
+            <li class="tabs-title "><a data-tabs-target="panelSabado" href="#panelSabado">Sábado</a></li>
+            <li class="tabs-title "><a data-tabs-target="panelDomingo" href="#panelDomingo">Domingo</a></li>
+          </ul>
+          <div class="tabs-content" data-tabs-content="lineUpTabs">
+            <div class="tabs-panel is-active" id="panelViernes">
+              <div class="row">
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://www.telemundo.com/sites/nbcutelemundo/files/images/promo/article/2019/08/05/j-balvin-en-el-backstage-de-premios-billboard.jpg" alt="J Balvin">
+                        <figcaption class="orbit-caption">J Balvin</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://img.ex.co/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1607509108/pgmatihk4bhfcr8clgmr.jpg" alt="Daddy Yankee">
+                        <figcaption class="orbit-caption">Daddy Yankee</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://img.ex.co/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1607508910/nwtnkryqmhv99xijyhvy.jpg" alt="Bad Bunny">
+                        <figcaption class="orbit-caption">Bad Bunny</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://img.ex.co/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1607509205/vfl0yeu1bfppzhz7pebm.jpg" alt="Ozuna">
+                        <figcaption class="orbit-caption">Ozuna</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://www.telemundo.com/sites/nbcutelemundo/files/images/promo/media_gallery/2019/03/15/nicky-jam-con-gorra-mar-promo.jpg" alt="Nicky Jam">
+                        <figcaption class="orbit-caption">Nicky Jam</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://img.ex.co/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1607510616/svqz4gzhlxcznxryncyy.jpg" alt="Don Omar">
+                        <figcaption class="orbit-caption">Don Omar</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tabs-panel is-active" id="panelSabado">
+              <div class="row">
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://jcatalan55.es/wp-content/uploads/2019/11/karol-g.jpg" alt="Karol G">
+                        <figcaption class="orbit-caption">Karol G</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://i.ytimg.com/vi/XOjrK8LSx0I/maxresdefault.jpg" alt="Farruko">
+                        <figcaption class="orbit-caption">Farruko</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://img.ex.co/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1607509372/bnjsfjhibifa7dmjvpmh.jpg" alt="Becky G">
+                        <figcaption class="orbit-caption">Becky G</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://img.ex.co/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1607509409/gyerjgnwlwbe0w6arb9y.jpg" alt="Maluma">
+                        <figcaption class="orbit-caption">Maluma</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://img.ex.co/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1607509007/dkb0tmmajddlodhi8baz.jpg" alt="Rosalia">
+                        <figcaption class="orbit-caption">Rosalia</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://mui.today/__export/1577818439724/sites/mui/img/2019/12/31/manuel-turizo-video-beso-dia-de-la-madre-instagram-.jpg_554688468.jpg" alt="Manuel Turizo">
+                        <figcaption class="orbit-caption">Manuel Turizo</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tabs-panel is-active" id="panelDomingo">
+              <div class="row">
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpvtsVdotx29SCw6ehWKxgCWuZfcmO9fZRZwHUGZBgbPbW8jbUBDjMIDOouPtm8xGG7c&usqp=CAU" alt="Rauw Alejandro">
+                        <figcaption class="orbit-caption">Rauw Alejandro</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://i.ytimg.com/vi/Ro18BjrfFg4/maxresdefault.jpg" alt="Mike Towers">
+                        <figcaption class="orbit-caption">Mike Towers</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://www.modashow.com.ar/wp-content/uploads/2019/02/wisinyandel.jpg" alt="Wisin y Yandel">
+                        <figcaption class="orbit-caption">wisin y Yandel</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="data:image/jpeg;base64,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" alt="Sebastian Yatra">
+                        <figcaption class="orbit-caption">Sebastian Yatra</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://elcomercio.pe/resizer/bhbUvrV6KDSjrLPDg3NyYPQvgqQ=/1200x675/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/MU6B4SKCG5AA5MWKITVIYNYQEY.jpg" alt="Plan B">
+                        <figcaption class="orbit-caption">Plan B</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://wallpapercave.com/wp/wp2158797.jpg" alt="Arcangel">
+                        <figcaption class="orbit-caption">Arcangel</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- /LineUp -->
+
+      <!-- Boletos -->
+
+      <section id="ticketsContainer" data-magellan-target="ticketsContainer">
+        <h3 class="text-center">Compra tus boletos!</h3>
+        <div class="row" data-equalizer data-equalize-on="small">
+          <div class="small-10 medium-6 medium-offset-3 small-offset-1 column">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Platino</li>
+              <li class="price">$100.00</li>
+              <li class="description">Acceso viernes, sábado, domingo</li>
+              <li>Barra libre todos días</li>
+              <li>Estacionamiento todos los días</li>
+              <li>Sorteo para acceder al backstage</li>
+              <li><a class="button" href="#">Comprar platino</a></li>
+            </ul>
+          </div>
+          <div class="small-6 medium-4  medium-offset-2 column">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Gold</li>
+              <li class="price">$80.00</li>
+              <li class="description">Acceso viernes, sábado, domingo</li>
+              <li data-equalizer-watch>Barra libre un dia</li>
+              <li data-equalizer-watch>Sorteo para acceder al backstage</li>
+              <li data-equalizer-watch>-</li>
+              <li><a class="button" href="#">Comprar Gold</a></li>
+            </ul>
+          </div>
+          <div class="small-6 medium-4 column">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Silver</li>
+              <li class="price">$60.00</li>
+              <li class="description">Acceso viernes, sábado, domingo</li>
+              <li data-equalizer-watch>Sorteo para acceder al backstage</li>
+              <li>-</li>
+              <li>-</li>
+              <li><a class="button" href="#">Comprar Silver</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- /Boletos -->
+
+      <!-- Suscribete -->
+
+      <section id="suscribeteContainer" data-magellan-target="suscribeteContainer">
+        <h3 class="text-center">Suscríbete</h3>
+        <h4 class="text-center">Y recibe las últimas novedades del festival </h4>
+        <form class="" action="" method="" novalidate data-abide>
+          <div data-abide-error class="row columns small-12 medium-6 text-center errorContainer" style="display: none;">
+            <p><i class="fi-alert"></i>Ingresó un correo electronico no valido</p>
+          </div>
+          <div class="row columns small-12 medium-6">
+            <div class="input-group">
+              <span class="input-group-label"><i class="fi-mail"></i></span>
+              <input type="email" name="email" class="input-group-field" placeholder="tu@correo.com" required value="">
+              <div class="input-group-button">
+                <input type="submit" class="button" name="" value="Suscribirse!">
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <!-- /Suscribete -->
+
+      <!-- /Info -->
+
+      <section id="infoContainer" data-magellan-target="infoContainer">
+        <h3 class="text-center">Lugar del Evento</h3>
+        <div class="infoMap" data-interchange="[images/mapSmall.html, small], [images/map.html, medium]"></div>
+        <img src="" alt="">
+      </section>
+
+      <!-- /Info -->
+
+      <!-- Social -->
+
+      <section id="socialContiner">
+        <div class="row align-center text-center">
+          <div class="small-1 column">
+            <a href="#" target="_blank">
+              <i class="fi-social-facebook"></i>
+            </a>
+          </div>
+          <div class="small-1 column">
+            <a href="#" target="_blank">
+              <i class="fi-social-twitter"></i>
+            </a>
+          </div>
+          <div class="small-1 column">
+            <a href="#" target="_blank">
+              <i class="fi-social-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- /Social -->
+
+    </div>
+
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
